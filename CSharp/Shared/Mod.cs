@@ -107,6 +107,7 @@ namespace SellableSubs
 #if CLIENT
       DisposeClient();
 #endif
+      harmony.UnpatchSelf();
     }
   }
 }
